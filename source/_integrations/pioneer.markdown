@@ -50,6 +50,17 @@ Notes:
 - Some Pioneer AVRs use the port 23 default and some are reported to use 8102.
 - `timeout` is a socket level option and should only be configured if you know what you are doing.
 
+### Known models
+
+These models are all known to work with this (Pioneer) component, using port 8102
+ * VSX-528, VSX-822, VSX-824, VSX-921, VSX-1030
+
+These models with this (Pioneer) component, using port 8102 but require a wakeup command
+ * VSX-920, VSX-2021
+
+These models require using the Onkyo component
+ * VSX-1031
+
 ### Source codes
 
 Under these lines, you can find some sample `sources` lists per receiver model. Here we use the source names as shown on the remote as key for each code. However these are for display purposes only, so you could rename inputs to better match your set-up (e.g.,  `HDMI: '19'` to `Kodi: '19'`.
